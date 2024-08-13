@@ -1,0 +1,10 @@
+Hibernate: select bc1_0.cod_empresa,bc1_0.vl_custo_emissao,bc1_0.token_atualizacao,bc1_0.token_integracao from tab_boleto_config bc1_0 where bc1_0.cod_empresa=?
+BoletoResponse(id=pay_bz0ysms7uer45l10, bankSlipUrl=https://www.asaas.com/b/pdf/bz0ysms7uer45l10, status=PENDING, nossoNumero=229871283, deleted=false, netValue=8.01, billingType=BOLETO, clientPaymentDate=null, paymentDate=null)
+
+
+INSERT INTO PUBLIC.PUBLIC.TAB_BOLETO_CADASTRO (ID, CPF_CNPJ, VL_CUSTO_EMISSAO, EMAIL, ID_EXTERNO, NOME) VALUES(1, '00432922326', NULL, 'gleyson@iza.tec.br', 'cus_000088327497', 'Gleyson Sampaio - Cliente');
+Integracao:
+
+cadastro: codigoCliente+plataforma
+boleto
+pix
