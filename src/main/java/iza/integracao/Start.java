@@ -55,13 +55,13 @@ public class Start implements ApplicationRunner {
 
         //service.integrarBoleto(request);
 
-        BoletoEntity boletoCodigoTitulo = boletoRepository.findFirstByCodigoTituloAndSubstituidoFalse("18");
+       /* BoletoEntity boletoCodigoTitulo = boletoRepository.findFirstByCodigoTituloAndSubstituidoFalse("18");
         System.out.println(boletoCodigoTitulo);
         System.out.println(boletoCodigoTitulo.getId());
         System.out.println(boletoCodigoTitulo.getCompensacao().getDataPagamento());
         System.out.println(boletoCodigoTitulo.getCompensacao().isBaixaRealizada());
         System.out.println(boletoCodigoTitulo.getIntegracao().getStatusRetorno());
-        System.out.println(boletoCodigoTitulo.getCodigoTitulo());
+        System.out.println(boletoCodigoTitulo.getCodigoTitulo());*/
 
     }
 }
